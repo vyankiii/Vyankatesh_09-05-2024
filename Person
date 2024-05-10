@@ -1,0 +1,22 @@
+Person and Test classes..
+
+1] Person class:
+The Person class has variables:
+personName:String type.
+personAge: int type.
+personAddress:String type
+personMailId: String type.
+personContactNo: long type.
+
+This class have two constructors:
+A default constructor (Person()): Initializes the instance variables with default values.
+A parameterized constructor (Person(String, int, String, String, long)): Allows us to set constructor values for the instance variables.
+The displaypersonDetails() method prints the persons details (name, age, address, email, and contact number).
+
+2] Test Class:
+The Test class contains main method, which is entry point of program.
+Inside the main method:
+Two Person objects are created:
+Person1: Created using the default constructor, so it will have default values.
+Person2: Created using the parameterized constructor, with  values for each field.
+The displaypersonDetails() method is called and Person1 and Person2 to prints details.
